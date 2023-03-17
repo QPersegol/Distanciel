@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
-    height: 844px;
     width: 390px;
     margin: 0;
     padding: 0;
@@ -35,4 +34,64 @@ body {
     box-shadow: 0px -19px 28px rgba(0, 0, 0, 0.25);
     z-index: 2;
     border-radius: 40px;
+}
+
+.cross {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.title {
+    margin-left: 35px;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.orange {
+    color: #FF675F;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.adress {
+    margin-left: 35px;
+}
+
+.commande {
+    display: flex;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.divider {
+    background-color: #F0F0F0;
+    border: #F0F0F0 1px solid;
+}
+
+.profil {
+    width: 40px;
+    height: 40px;
+    margin-right: 75px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.color {
+    color: #FF675F;
+}
+
+h3 {
+    margin-right: 75px;
+    color: #D9D9D9;
+    font-weight: 500;
+    font-size: 14px;
 }
